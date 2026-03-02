@@ -20,9 +20,9 @@ chapter: false
 
 | Ảnh | Vai trò | Họ và Tên | Chuyên ngành | Liên hệ |
 | :---: | :---: | :--- | :--- | :--- |
-|<img src="/images/PHuyen.jpg" class="img-responsive" style="max-width:300px; display:block; margin:auto;">| **Trưởng nhóm** | Trần Phương Huyền | Kỹ thuật phần mềm | tranphuonghuyen2005@gmail.com |
+|<img src="/images/PHuyen.JPG" class="img-responsive" style="max-width:300px; display:block; margin:auto;">| **Trưởng nhóm** | Trần Phương Huyền | Kỹ thuật phần mềm | tranphuonghuyen2005@gmail.com |
 |<img src="/images/LamAnh.jpg" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | AI | Nguyễn Lâm Anh | Trí tuệ nhân tạo | nguyenla110505@gmail.com |
-|<img src="/images/VanLinh.png" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | AI | Nguyễn Văn Linh | Trí tuệ nhân tạo | nguyenvanlinh.1710.it@gmail.com |
+|<img src="/images/VanLinh.PNG" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | AI | Nguyễn Văn Linh | Trí tuệ nhân tạo | nguyenvanlinh.1710.it@gmail.com |
 
 
 

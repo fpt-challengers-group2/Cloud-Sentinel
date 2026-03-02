@@ -20,7 +20,7 @@ chapter: false
 
 | Photo| Role | Full Name | Major | Contact |
 | :---:| :---: | :--- | :--- | :--- |
-|<img src="/images/PHuyen.jpg" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | **Leader** | Tran Phuong Huyen | Software Engineering | tranphuonghuyen2005@gmail.com |
+|<img src="/images/PHuyen.JPG" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | **Leader** | Tran Phuong Huyen | Software Engineering | tranphuonghuyen2005@gmail.com |
 |<img src="/images/LamAnh.jpg" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | AI | Nguyen Lam Anh | Artifical Intelligent | nguyenla110505@gmail.com |
-|<img src="/images/VanLinh.png" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | AI | Nguyen Van Linh | Artifical Intelligent | nguyenvanlinh.1710.it@gmail.com |
+|<img src="/images/VanLinh.PNG" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | AI | Nguyen Van Linh | Artifical Intelligent | nguyenvanlinh.1710.it@gmail.com |
 
