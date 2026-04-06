@@ -3,47 +3,49 @@ title: "Workshop"
 weight: 1
 chapter: false
 pre: " <b> 2. </b> "
---- 
-# SorcererXtreme: Xây dựng Nền tảng luận giải dựa trên AI trên AWS
+---
 
-### Tổng quan
+# Cloud-Sentinel: Xây dựng hệ thống SOAR dựa trên AI & Serverless
 
-SorcererXtreme AI là một nền tảng hướng dẫn siêu hình tiên phong, tận dụng AI và kiến trúc Serverless của AWS để cung cấp các bài đọc cá nhân hóa, có cơ sở và đáng tin cậy về Chiêm tinh học, Tarot, Tử vi và Số học.
+### Tổng quan (Executive Summary)
+**Cloud-Sentinel** là một giải pháp bảo mật thế hệ mới áp dụng mô hình **SOAR** (Security Orchestration, Automation, and Response). Hệ thống tận dụng sức mạnh của **Trí tuệ nhân tạo (Generative AI)** và **Hạ tầng hướng sự kiện (Event-Driven Architecture)** trên AWS để tự động hóa quy trình phát hiện và ứng phó sự cố bảo mật với chi phí tối ưu.
 
-### 1. Phát triển Frontend 
+Khác với các hệ thống tự động hóa thông thường, Cloud-Sentinel xây dựng một đội ngũ **AI Agents** hoạt động trên **Amazon Bedrock** để thay thế con người trong các bước phân tích và đánh giá sự cố bảo mật. Hệ thống được thiết kế hoàn toàn theo mô hình **Serverless** để đảm bảo chi phí vận hành thấp nhất, chỉ phát sinh khi có sự cố thực tế.
 
-Phần này tập trung vào việc xây dựng giao diện người dùng React/Next.js và tích hợp với AWS Amplify.
+---
 
-| Mục tiêu | Công nghệ & Khái niệm | Sản phẩm Đầu ra |
-| :--- | :--- | :--- |
-| **Giao diện & UX** | Xây dựng các component chính (Chat UI, Profile Settings, Payment Gateways). | Giao diện người dùng trực quan, responsive cho các dịch vụ: Tarot Reading, Astrology Chart. |
-| **Xác thực** | Tích hợp AWS Cognito và Amplify Authenticator vào Frontend. | Hệ thống đăng nhập/đăng ký hoạt động đầy đủ. |
-| **Tích hợp Backend** | Viết các hàm Client-side API calls (`axios`) để gọi đến API Gateway Endpoint (Backend). | Các hàm Fetch data/Post requests hoạt động, hiển thị dữ liệu (Response) từ Lambda. |
+### Các cột mốc học tập (Agentic Learning Path)
 
+#### 1. Thiết lập Hạ tầng IaC (Terraform)
+Xây dựng "sân chơi" cho các Agent. Sử dụng **Terraform** để định nghĩa VPC, IAM Roles và các quyền hạn cần thiết để AI có thể "đọc" và "hiểu" hạ tầng AWS.
 
-### 2. Phát triển Backend 
+#### 2. Kích hoạt Giác quan (Detection Layer)
+Kết nối **GuardDuty** và **EventBridge** để tạo ra các "tín hiệu thần kinh", đánh thức **Supervisor Agent** ngay khi có dấu hiệu xâm nhập.
 
-Đây là phần cốt lõi của kiến trúc Serverless, tập trung vào logic nghiệp vụ và tối ưu hóa hiệu suất.
+#### 3. Xây dựng Trí tuệ Agent (Intelligence Layer)
+Đây là trọng tâm của workshop. Bạn sẽ học cách:
+* Lập trình **Supervisor Agent** để điều phối máy trạng thái (Step Functions).
+* Xây dựng **RAG Agent** kết nối với **Pinecone** để truy xuất tri thức bảo mật.
+* Cấu hình **Advisor Agent** trên **Bedrock** để soạn thảo giải pháp.
 
-| Mục tiêu | Công nghệ & Khái niệm | Sản phẩm Đầu ra |
-| :--- | :--- | :--- |
-| **Lớp API & DB** | Thiết lập Express.js và **`serverless-http`** trên AWS Lambda. Cấu hình Prisma và kết nối an toàn với NeonDB. | Các hàm Lambda cơ bản hoạt động: `UserAPI` (CRUD hồ sơ) và `ReminderService`. |
-| **Kiến trúc Asynchronous** | Xây dựng luồng Reminder Service bằng EventBridge Scheduler và Amazon SES. | Logic `findUsersToRemind` hoạt động và tự động gửi email thông báo.  |
-| **Tối ưu hóa** | Tối ưu gói triển khai Serverless/Prisma, và thiết lập IAM Roles tối thiểu. | Mã nguồn Backend được triển khai tự động qua GitHub Actions (CI/CD). |
+#### 4. Phản ứng & Tương tác (Action Layer)
+Thiết lập luồng phê duyệt giữa **Advisor Agent** và người dùng thật qua **Telegram**. Thực thi các lệnh bảo mật (Isolate/Block) thông qua **Lambda Trigger**.
 
+#### 5. Giám sát & Tổng kết
+Đánh giá hiệu quả của các Agent qua **CloudWatch** và tối ưu hóa chi phí vận hành (~14.46 USD/tháng) và hướng dẫn cách dọn dẹp tài nguyên.
 
-### 4. Phát triển AI 
-Phần quan trọng nhất, nơi logic RAG được thiết lập để cung cấp nội dung thông minh.
+---
 
-| Mục tiêu | Công nghệ & Khái niệm | Sản phẩm Đầu ra |
-| :--- | :--- | :--- |
-| **Lõi RAG** | Hiểu và thiết lập luồng Retrieval-Augmented Generation (RAG). | Kiến trúc RAG hoạt động. |
-| **Bedrock & Embeddings** | Sử dụng Amazon Bedrock để tạo Vector Embeddings từ câu hỏi của người dùng và gọi các LLMs. | Hàm Lambda (`ChatbotAPI`) gọi thành công Bedrock để tạo sinh câu trả lời. |
-| **Truy xuất Dữ liệu** | Sử dụng Pinecone làm Vector Database để lưu trữ và truy xuất các Chunk kiến thức từ kho tri thức RAG (lưu trữ trong S3). | Quá trình tìm kiếm ngữ cảnh (context retrieval) và truyền ngữ cảnh đó vào Prompt để tạo sinh câu trả lời chính xác. |
+### Kết quả đạt được sau Workshop
+* **Kỹ năng IaC:** Thành thạo triển khai hạ tầng phức tạp bằng Terraform.
+* **Kỹ năng AI:** Hiểu và thực thi luồng RAG để ứng dụng vào các bài toán thực tế.
+* **Tư duy Security:** Làm chủ quy trình vận hành bảo mật hiện đại theo mô hình SOAR.
 
-### Nội dung
+---
 
-1.  [Tổng quan về Workshop](5.1-Workshop-overview)
-2.  [Phát triển Frontend](5.2-Frontend-Development/)
-3.  [Phát triển Backend](5.3-Backend-Development/)
-4.  [Phát triển AI](5.4-AI-Development/)
+#### Nội dung chi tiết
+1. [Module 1: Giới thiệu & Thiết lập](2.1-Workshop-overview)
+2. [Module 2: Giám sát & Phát hiện](2.2-Detection-Layer)
+3. [Module 3: Trí tuệ & Điều phối](2.3-Intelligence-Orchestration)
+4. [Module 4: Phản ứng & Tương tác](2.4-Response-Interaction)
+5. [Module 5: Giám sát & Tổng kết](2.5-Summary-Cleanup)

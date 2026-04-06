@@ -15,21 +15,21 @@
     <title>Workshop :: Báo cáo đề án thực tập</title>
 
     
-    <link href="../../css/nucleus.css?1772433182" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1772433182" rel="stylesheet">
-    <link href="../../css/hybrid.css?1772433182" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1772433182" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1772433182" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1772433182" rel="stylesheet">
-    <link href="../../css/atom-one-dark-reasonable.css?1772433182" rel="stylesheet">
-    <link href="../../css/theme.css?1772433182" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1772433182" rel="stylesheet">
+    <link href="../../css/nucleus.css?1775142541" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1775142541" rel="stylesheet">
+    <link href="../../css/hybrid.css?1775142541" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1775142541" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1775142541" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1775142541" rel="stylesheet">
+    <link href="../../css/atom-one-dark-reasonable.css?1775142541" rel="stylesheet">
+    <link href="../../css/theme.css?1775142541" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1775142541" rel="stylesheet">
     
-    <link href="../../css/theme-workshop.css?1772433182" rel="stylesheet">
+    <link href="../../css/theme-workshop.css?1775142541" rel="stylesheet">
     
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1772433182"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1775142541"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -88,14 +88,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1772433182"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1772433182"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1775142541"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1775142541"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/localhost:1313\/fpt-challengers-group2\/\/vi";
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1772433182"></script>
+<script type="text/javascript" src="../../js/search.js?1775142541"></script>
  
   </div>
 
@@ -764,10 +764,8 @@
     <li>
       <ul>
         <li><a href="#tổng-quan">Tổng quan</a></li>
-        <li><a href="#1-phát-triển-frontend">1. Phát triển Frontend</a></li>
-        <li><a href="#2-phát-triển-backend">2. Phát triển Backend</a></li>
-        <li><a href="#4-phát-triển-ai">4. Phát triển AI</a></li>
-        <li><a href="#nội-dung">Nội dung</a></li>
+        <li><a href="#mục-tiêu-của-workshop">Mục tiêu của Workshop</a></li>
+        <li><a href="#điều-kiện-tiên-quyết-prerequisites">Điều kiện tiên quyết (Prerequisites)</a></li>
       </ul>
     </li>
   </ul>
@@ -794,100 +792,48 @@
 
 
 
-	<h1 id="sorcererxtreme-xây-dựng-nền-tảng-luận-giải-dựa-trên-ai-trên-aws">SorcererXtreme: Xây dựng Nền tảng luận giải dựa trên AI trên AWS</h1>
+	<h1 id="heading">&hellip;</h1>
 <h3 id="tổng-quan">Tổng quan</h3>
-<p>SorcererXtreme AI là một nền tảng hướng dẫn siêu hình tiên phong, tận dụng AI và kiến trúc Serverless của AWS để cung cấp các bài đọc cá nhân hóa, có cơ sở và đáng tin cậy về Chiêm tinh học, Tarot, Tử vi và Số học.</p>
-<h3 id="1-phát-triển-frontend">1. Phát triển Frontend</h3>
-<p>Phần này tập trung vào việc xây dựng giao diện người dùng React/Next.js và tích hợp với AWS Amplify.</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Mục tiêu</th>
-          <th style="text-align: left">Công nghệ &amp; Khái niệm</th>
-          <th style="text-align: left">Sản phẩm Đầu ra</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><strong>Giao diện &amp; UX</strong></td>
-          <td style="text-align: left">Xây dựng các component chính (Chat UI, Profile Settings, Payment Gateways).</td>
-          <td style="text-align: left">Giao diện người dùng trực quan, responsive cho các dịch vụ: Tarot Reading, Astrology Chart.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Xác thực</strong></td>
-          <td style="text-align: left">Tích hợp AWS Cognito và Amplify Authenticator vào Frontend.</td>
-          <td style="text-align: left">Hệ thống đăng nhập/đăng ký hoạt động đầy đủ.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Tích hợp Backend</strong></td>
-          <td style="text-align: left">Viết các hàm Client-side API calls (<code>axios</code>) để gọi đến API Gateway Endpoint (Backend).</td>
-          <td style="text-align: left">Các hàm Fetch data/Post requests hoạt động, hiển thị dữ liệu (Response) từ Lambda.</td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="2-phát-triển-backend">2. Phát triển Backend</h3>
-<p>Đây là phần cốt lõi của kiến trúc Serverless, tập trung vào logic nghiệp vụ và tối ưu hóa hiệu suất.</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Mục tiêu</th>
-          <th style="text-align: left">Công nghệ &amp; Khái niệm</th>
-          <th style="text-align: left">Sản phẩm Đầu ra</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><strong>Lớp API &amp; DB</strong></td>
-          <td style="text-align: left">Thiết lập Express.js và <strong><code>serverless-http</code></strong> trên AWS Lambda. Cấu hình Prisma và kết nối an toàn với NeonDB.</td>
-          <td style="text-align: left">Các hàm Lambda cơ bản hoạt động: <code>UserAPI</code> (CRUD hồ sơ) và <code>ReminderService</code>.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Kiến trúc Asynchronous</strong></td>
-          <td style="text-align: left">Xây dựng luồng Reminder Service bằng EventBridge Scheduler và Amazon SES.</td>
-          <td style="text-align: left">Logic <code>findUsersToRemind</code> hoạt động và tự động gửi email thông báo.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Tối ưu hóa</strong></td>
-          <td style="text-align: left">Tối ưu gói triển khai Serverless/Prisma, và thiết lập IAM Roles tối thiểu.</td>
-          <td style="text-align: left">Mã nguồn Backend được triển khai tự động qua GitHub Actions (CI/CD).</td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="4-phát-triển-ai">4. Phát triển AI</h3>
-<p>Phần quan trọng nhất, nơi logic RAG được thiết lập để cung cấp nội dung thông minh.</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Mục tiêu</th>
-          <th style="text-align: left">Công nghệ &amp; Khái niệm</th>
-          <th style="text-align: left">Sản phẩm Đầu ra</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><strong>Lõi RAG</strong></td>
-          <td style="text-align: left">Hiểu và thiết lập luồng Retrieval-Augmented Generation (RAG).</td>
-          <td style="text-align: left">Kiến trúc RAG hoạt động.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Bedrock &amp; Embeddings</strong></td>
-          <td style="text-align: left">Sử dụng Amazon Bedrock để tạo Vector Embeddings từ câu hỏi của người dùng và gọi các LLMs.</td>
-          <td style="text-align: left">Hàm Lambda (<code>ChatbotAPI</code>) gọi thành công Bedrock để tạo sinh câu trả lời.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Truy xuất Dữ liệu</strong></td>
-          <td style="text-align: left">Sử dụng Pinecone làm Vector Database để lưu trữ và truy xuất các Chunk kiến thức từ kho tri thức RAG (lưu trữ trong S3).</td>
-          <td style="text-align: left">Quá trình tìm kiếm ngữ cảnh (context retrieval) và truyền ngữ cảnh đó vào Prompt để tạo sinh câu trả lời chính xác.</td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="nội-dung">Nội dung</h3>
-<ol>
-<li><a href="5.1-Workshop-overview">Tổng quan về Workshop</a></li>
-<li><a href="5.2-Frontend-Development/">Phát triển Frontend</a></li>
-<li><a href="5.3-Backend-Development/">Phát triển Backend</a></li>
-<li><a href="5.4-AI-Development/">Phát triển AI</a></li>
-</ol>
+<p>Cloud-Sentinel là một hệ thống SOAR (Security Orchestration, Automation and Response) hiện đại, được thiết kế để bảo vệ các hạ tầng trọng yếu (như Ngân hàng/Tài chính) trên nền tảng AWS.</p>
+<p>Hệ thống vận hành theo cơ chế Event-Driven (Dựa trên sự kiện) kết hợp với Multi-Agent AI để giải quyết bài toán: Phát hiện nhanh - Phân tích thông minh - Phản ứng tự động.</p>
+<h3 id="mục-tiêu-của-workshop">Mục tiêu của Workshop</h3>
+<p>Sau khi hoàn thành module này và các phần tiếp theo, bạn sẽ:</p>
+<ul>
+<li>
+<p>Triển khai được hạ tầng bảo mật hoàn chỉnh bằng Terraform.</p>
+</li>
+<li>
+<p>Hiểu cách Amazon GuardDuty và EventBridge phối hợp để kích hoạt quy trình ứng phó sự cố.</p>
+</li>
+<li>
+<p>Xây dựng luồng điều phối thông minh (Orchestration) bằng AWS Step Functions.</p>
+</li>
+<li>
+<p>Tích hợp AI Agents (thông qua Amazon Bedrock) để soạn thảo kịch bản phản ứng dựa trên tri thức bảo mật (RAG).</p>
+</li>
+</ul>
+<h3 id="điều-kiện-tiên-quyết-prerequisites">Điều kiện tiên quyết (Prerequisites)</h3>
+<p>Để đảm bảo quá trình thực nghiệm diễn ra suôn sẻ và tối ưu chi phí, cần chuẩn bị các mục sau:</p>
+<p>A. Công cụ lập trình và quản lý hạ tầng:</p>
+<ul>
+<li>
+<p>AWS CLI v2: Đã cài đặt và cấu hình access_key/secret_key có quyền AdministratorAccess.</p>
+</li>
+<li>
+<p>Terraform CLI: Phiên bản từ 1.5 trở lên để quản lý hạ tầng.</p>
+</li>
+<li>
+<p>Python 3.9+: Để đóng gói các gói Runtime cho Lambda.</p>
+</li>
+</ul>
+<p>B. Cấu hình dịch vụ AWS</p>
+<ul>
+<li>Amazon Bedrock: Truy cập vào Console AWS vùng Singapore (ap-southeast-1), vào mục Model Access và kích hoạt quyền sử dụng cho các model Claude hoặc Llama.</li>
+</ul>
+<p>S3 Backend: Tạo thủ công một S3 Bucket (ví dụ: cloud-sentinel-tfstate-yourname) để lưu trữ file terraform.tfstate. Điều này giúp bảo vệ trạng thái hạ tầng an toàn.</p>
+<p>C. Tích hợp bên thứ ba (External Integration)
+Telegram: Tạo một Bot qua @BotFather và lưu lại Bot Token.</p>
+<p>Pinecone: Đăng ký tài khoản (Free Tier) và lấy API Key để phục vụ cho lớp lưu trữ tri thức (Vector Database).</p>
 
 
 
@@ -1392,19 +1338,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1772433182"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1772433182"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1772433182"></script>
-    <script src="../../js/jquery.sticky.js?1772433182"></script>
-    <script src="../../js/featherlight.min.js?1772433182"></script>
-    <script src="../../js/highlight.pack.js?1772433182"></script>
+    <script src="../../js/clipboard.min.js?1775142541"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1775142541"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1775142541"></script>
+    <script src="../../js/jquery.sticky.js?1775142541"></script>
+    <script src="../../js/featherlight.min.js?1775142541"></script>
+    <script src="../../js/highlight.pack.js?1775142541"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom-3.6.0.js?1772433182"></script>
-    <script src="../../js/learn.js?1772433182"></script>
-    <script src="../../js/hugo-learn.js?1772433182"></script>
+    <script src="../../js/modernizr.custom-3.6.0.js?1775142541"></script>
+    <script src="../../js/learn.js?1775142541"></script>
+    <script src="../../js/hugo-learn.js?1775142541"></script>
 
-    <link href="../../mermaid/mermaid.css?1772433182" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.js?1772433182"></script>
+    <link href="../../mermaid/mermaid.css?1775142541" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.js?1775142541"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
