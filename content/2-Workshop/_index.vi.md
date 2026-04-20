@@ -44,8 +44,8 @@ Thiết lập luồng phê duyệt giữa **Advisor Agent** và người dùng t
 ---
 
 #### Nội dung chi tiết
-1. [Module 1: Giới thiệu & Thiết lập](2.1-Workshop-overview)
-2. [Module 2: Giám sát & Phát hiện](2.2-Detection-Layer)
-3. [Module 3: Trí tuệ & Điều phối](2.3-Intelligence-Orchestration)
-4. [Module 4: Phản ứng & Tương tác](2.4-Response-Interaction)
-5. [Module 5: Giám sát & Tổng kết](2.5-Summary-Cleanup)
+1. [Module 1: Giới thiệu & Thiết lập](2.1-Workshop-overview/_index.vi.md)
+2. [Module 2: Giám sát & Phát hiện](2.2-Detection-Layer/)
+3. [Module 3: Trí tuệ & Điều phối](2.3-Intelligence-Orchestration/)
+4. [Module 4: Phản ứng & Tương tác](2.4-Response-Interaction/)
+5. [Module 5: Giám sát & Tổng kết](2.5-Summary-Cleanup/)

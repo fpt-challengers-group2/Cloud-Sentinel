@@ -53,8 +53,8 @@ Evaluate the effectiveness of the Agents via **CloudWatch**, optimize operationa
 
 #### Detailed Content
 
-1.  [Module 1: Introduction & Setup](https://www.google.com/search?q=2.1-Workshop-overview)
-2.  [Module 2: Monitoring & Detection](https://www.google.com/search?q=2.2-Detection-Layer)
-3.  [Module 3: Intelligence & Orchestration](https://www.google.com/search?q=2.3-Intelligence-Orchestration)
-4.  [Module 4: Response & Interaction](https://www.google.com/search?q=2.4-Response-Interaction)
-5.  [Module 5: Monitoring & Summary](https://www.google.com/search?q=2.5-Summary-Cleanup)
+1.  [Module 1: Introduction & Setup](2.1-Workshop-overview/_index.md)
+2.  [Module 2: Monitoring & Detection](2.2-Detection-Layer/)
+3.  [Module 3: Intelligence & Orchestration](2.3-Intelligence-Orchestration/)
+4.  [Module 4: Response & Interaction](2.4-Response-Interaction/)
+5.  [Module 5: Monitoring & Summary](2.5-Summary-Cleanup/)

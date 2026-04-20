@@ -14,28 +14,28 @@
                 href="http://localhost:1313/fpt-challengers-group2/vi/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.1-prepare/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.1-prepare/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-backend-development/2.3.1-prepare/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/2.3.1-prepare/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.1-prepare/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.1-prepare/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.1-preparation/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.1-preparation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-frontend-development/2.2.1-preparation/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-detection-layer/2.2.1-preparation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.1-preparation/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.1-preparation/"
                 />
   </url><url>
     <loc>http://localhost:1313/fpt-challengers-group2/vi/1-proposal/</loc>
@@ -62,16 +62,16 @@
                 href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.1-workshop-overview/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.1-architecture/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.1-architecture/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-ai-development/2.4.1-architecture/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/2.4.1-architecture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.1-architecture/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.1-architecture/"
                 />
   </url><url>
     <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/</loc>
@@ -86,256 +86,256 @@
                 href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.2-data-strategy/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.2-data-strategy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-ai-development/2.4.2-data-strategy/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/2.4.2-data-strategy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.2-data-strategy/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.2-data-strategy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-frontend-development/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-detection-layer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.2-set-up/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.2-set-up/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-backend-development/2.3.2-set-up/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/2.3.2-set-up/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.2-set-up/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.2-set-up/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.2-ui-implementation/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.2-ui-implementation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-frontend-development/2.2.2-ui-implementation/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-detection-layer/2.2.2-ui-implementation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.2-ui-implementation/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.2-ui-implementation/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.3-configure-serverless/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.3-configure-serverless/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-backend-development/2.3.3-configure-serverless/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/2.3.3-configure-serverless/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.3-configure-serverless/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.3-configure-serverless/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.3-storage-retrieval/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-ai-development/2.4.3-storage-retrieval/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.3-storage-retrieval/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.3-storage-retrieval/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-backend-development/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/2.4.3-storage-retrieval/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.3-storage-retrieval/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.3-integration/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.3-integration/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-frontend-development/2.2.3-integration/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-detection-layer/2.2.3-integration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.3-integration/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.3-integration/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.4-models-rag/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.4-models-rag/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-ai-development/2.4.4-models-rag/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/2.4.4-models-rag/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.4-models-rag/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.4-models-rag/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.4-aws-ssm/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-ai-development/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/2.3.4-aws-ssm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.4-aws-ssm/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.4-aws-ssm/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-backend-development/2.3.4-aws-ssm/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.4-aws-ssm/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.4-deployment/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.4-deployment/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-frontend-development/2.2.4-deployment/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-detection-layer/2.2.4-deployment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.4-deployment/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.4-deployment/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.5-cicd/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.5-cicd/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-ai-development/2.4.5-cicd/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/2.4.5-cicd/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.5-cicd/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.5-cicd/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.5-advanced-deployment/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.5-advanced-deployment/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-frontend-development/2.2.5-advanced-deployment/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-detection-layer/2.2.5-advanced-deployment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.5-advanced-deployment/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.5-advanced-deployment/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.5-cicd/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.5-cicd/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-backend-development/2.3.5-cicd/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/2.3.5-cicd/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.5-cicd/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.5-cicd/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.6-roadmap/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.6-roadmap/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-ai-development/2.4.6-roadmap/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/2.4.6-roadmap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-ai-development/2.4.6-roadmap/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/2.4.6-roadmap/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.6-microservice/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.6-microservice/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-backend-development/2.3.6-microservice/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/2.3.6-microservice/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.6-microservice/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.6-microservice/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.6-backend-architecture/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.6-backend-architecture/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-frontend-development/2.2.6-backend-architecture/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-detection-layer/2.2.6-backend-architecture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.6-backend-architecture/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.6-backend-architecture/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.7-cleanup/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.7-cleanup/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-frontend-development/2.2.7-cleanup/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-detection-layer/2.2.7-cleanup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-frontend-development/2.2.7-cleanup/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/2.2.7-cleanup/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.7-email/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.7-email/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-backend-development/2.3.7-email/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/2.3.7-email/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.7-email/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.7-email/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.8-summary/</loc>
+    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.8-summary/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-backend-development/2.3.8-summary/"
+                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/2.3.8-summary/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-backend-development/2.3.8-summary/"
+                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/2.3.8-summary/"
                 />
   </url><url>
     <loc>http://localhost:1313/fpt-challengers-group2/vi/categories/</loc>
