@@ -4,7 +4,7 @@ weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
-<img src="/images/logo.JPG" class="img-responsive" style="max-width:300px; display:block; margin:auto;">
+<img src="/images/logo.jpg" class="img-responsive" style="max-width:300px; display:block; margin:auto;">
 
 # AWS FIRST CLOUD AI JOURNEY – PROJECT PLAN
 # Cloud-Sentinel – SOAR System for Critical Infrastructure on AWS
