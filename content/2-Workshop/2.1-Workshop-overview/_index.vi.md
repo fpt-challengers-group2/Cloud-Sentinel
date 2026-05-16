@@ -60,4 +60,4 @@ Trong module này, người tham dự sẽ học cách triển khai hạ tầng 
 2. `terraform plan`: Xem trước các thay đổi và dự toán tài nguyên sẽ được tạo.
 3. `terraform apply`: Thực thi triển khai hạ tầng lên AWS.
 
-![Agentic Workflow](/images/High_Level_System_Architecture.GIF)
+![Agentic Workflow](/images/High_Level_System_Architecture.gif)

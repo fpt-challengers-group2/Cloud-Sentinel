@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 
 ---
-<img src="../../static/images/logo.jpg" class="img-responsive" style="max-width:300px; display:block; margin:auto;">
+<img src="/images/logo.jpg" class="img-responsive" style="max-width:300px; display:block; margin:auto;">
 
 # AWS FIRST CLOUD AI JOURNEY – PROJECT PLAN
 # TEEJ_SorcererXStreme - FPT University - Ho Chi Minh Campus - SORCERERXSTREME

@@ -65,4 +65,4 @@ In this module, participants will learn how to deploy a complete security infras
 2.  `terraform plan`: Preview changes and estimate resources to be created.
 3.  `terraform apply`: Execute the infrastructure deployment to AWS.
 
-![Agentic Workflow](/images/High_Level_System_Architecture.GIF)
+![Agentic Workflow](/images/High_Level_System_Architecture.gif)
