@@ -1,64 +1,106 @@
 ---
-title: "Detection Layer"
+title: "Lớp phát hiện (Detection Layer)"
 weight: 2
 chapter: false
 pre: " <b> 2.2. </b> "
 ---
 
-# Xây dựng Frontend Serverless với Next.js & AWS Amplify
+# 2.2. Lớp phát hiện – Amazon GuardDuty
 
-## 1. Tổng quan Workshop
+## 2.2.1. Tổng quan
 
-Chào mừng bạn đến với Workshop **Xây dựng Frontend Serverless hiện đại** cho dự án **SorcererXtreme**.
+Lớp phát hiện có nhiệm vụ phát sinh cảnh báo khi có hành vi bất thường trên hạ tầng AWS. Trong CloudSentinel, nguồn đầu vào là **Amazon GuardDuty** – dịch vụ phát hiện đe dọa dựa trên machine learning. GuardDuty phân tích VPC Flow Logs, DNS logs, CloudTrail events để tạo các **finding** (sự cố bảo mật).
 
-Trong dự án này, Frontend đóng vai trò là "gương mặt đại diện", nơi người dùng tương tác trực tiếp với các tính năng huyền bí. Nhiệm vụ của chúng ta là xây dựng một giao diện đẹp, mượt mà và giao tiếp hiệu quả với các dịch vụ AWS phía sau.
+**Mục tiêu của lớp này:**
+- Cung cấp cấu trúc finding chuẩn để các thành phần sau (Parser, History, Knowledge, Agent) có thể xử lý.
+- Kích hoạt luồng điều phối của Step Function.
 
-## 2. Kiến trúc Frontend (Frontend Architecture)
+## 2.2.2. Thiết kế và triển khai
 
-Chúng ta sẽ tập trung vào kiến trúc của phần Client (Frontend) và các điểm kết nối (Integration Points):
+### 2.2.2.1. GuardDuty detector
 
-![Frontend Architecture Diagram](/images/frontend_architecture_diagram.png)
+- GuardDuty được bật thủ công trên region `ap-southeast-1` (nơi hệ thống hoạt động).
+- Chi phí ước tính: khoảng **6.90 USD/tháng** với lưu lượng 6GB VPC Flow Logs.
 
-### Luồng hoạt động của Frontend:
+### 2.2.2.2. Cấu trúc một finding (sau khi qua Lambda Parser)
 
-1.  **Hosting & Delivery:** Code Next.js được lưu trữ và vận hành trên **AWS Amplify**. Người dùng truy cập web thông qua mạng lưới CDN toàn cầu (CloudFront) tích hợp sẵn trong Amplify, đảm bảo tốc độ tải trang cực nhanh.
-2.  **Authentication (Xác thực):** Khi người dùng Đăng nhập, Frontend sẽ giao tiếp trực tiếp với **Amazon Cognito**. Cognito trả về một "Token" (giống như tấm vé thông hành).
-3.  **API Interaction (Giao tiếp):** Với mỗi yêu cầu (như chatbot hoặc xem bài Tarot), Frontend sẽ gửi Token kèm theo request đến **Amazon API Gateway**.
-4.  **Response:** Frontend nhận kết quả JSON từ API và hiển thị lên giao diện (Render UI). Frontend **không cần biết** phía sau API là Database gì hay AI model nào, nó chỉ quan tâm đến đầu vào (Request) và đầu ra (Response).
+Hệ thống sử dụng Lambda `lambda_parser` để trích xuất các trường quan trọng từ raw GuardDuty finding. Kết quả là một JSON chuẩn có các trường sau:
 
-## 3. Công nghệ Frontend sử dụng (Tech Stack)
+| Trường | Ý nghĩa | Ví dụ |
+|--------|---------|-------|
+| `finding_id` | UUID của sự cố | `"abc123-def456"` |
+| `finding_type` | Loại tấn công | `"UnauthorizedAccess:EC2/SSHBruteForce"` |
+| `severity` | Mức độ (0.1 – 8.9) | `5.0` |
+| `resource_type` | Loại tài nguyên | `"Instance"` |
+| `target_id` | ID tài nguyên | `"i-0123456789abcdef0"` |
+| `region` | Vùng AWS | `"ap-southeast-1"` |
+| `attacker_ip` | IP tấn công (nếu có) | `"203.0.113.45"` |
+| `attacker_location` | Vị trí địa lý | `"Hanoi, Vietnam"` |
+| `title` | Tiêu đề | `"SSH brute force from known malicious IP"` |
+| `description` | Mô tả chi tiết | `"The remote host ..."` |
+| `timestamp` | Thời gian (ISO) | `"2026-04-26T12:34:56Z"` |
 
-Bộ công cụ "vũ khí" của Frontend Developer trong dự án này:
+### 2.2.2.3. Cơ chế kích hoạt Step Function
 
-| Công nghệ | Vai trò | Tại sao dùng? |
-| :--- | :--- | :--- |
-| **Next.js (App Router)** | Framework | Hỗ trợ Server-Side Rendering (SSR) tốt cho SEO, Router mạnh mẽ. |
-| **AWS Amplify (Gen 2)** | Platform | Cung cấp Hosting, CI/CD tự động và thư viện kết nối Cloud cực nhanh. |
-| **Tailwind CSS** | Styling | Viết CSS nhanh, dễ dàng tùy chỉnh giao diện "Dark Mode" huyền bí. |
-| **Framer Motion** | Animation | Tạo hiệu ứng chuyển động mượt mà (như lật bài Tarot 3D). |
-| **Amplify UI** | Library | Bộ component có sẵn cho phần Đăng nhập/Đăng ký (Login UI). |
-| **Axios / Fetch** | HTTP Client | Dùng để gọi API Gateway. |
+Trong thiết kế kiến trúc, GuardDuty sẽ gửi finding đến EventBridge, và EventBridge rule sẽ trigger Step Function. Tuy nhiên, **trong bản triển khai hiện tại, EventBridge rule chưa được hoàn thiện**. Để vẫn có thể vận hành và thử nghiệm pipeline, chúng ta sử dụng **mock event** – gửi trực tiếp finding JSON vào Step Function bằng AWS CLI (hướng dẫn ở phần Lab).
 
-## 4. Thời gian & Chi phí ước tính
+## 2.2.3. Hướng dẫn thực hành (Lab)
 
-| Mục | Chi tiết |
-| :--- | :--- |
-| **Thời gian** | 2-3 giờ mỗi ngày |
-| **Chi phí** | **~$9.06/tháng** (Toàn bộ dự án) |
+Trong phần này, bạn sẽ tự tay gửi một finding mẫu (mock) vào Step Function để kích hoạt toàn bộ pipeline.
 
-## 5. Nội dung thực hành
+### Bước 1: Tạo file mock event
 
-Chúng ta sẽ đi qua quy trình phát triển Frontend chuẩn:
+Tạo file `mock_finding.json` với nội dung sau (bạn có thể sửa `target_id`, `attacker_ip` tùy ý):
 
-1.  [**Chuẩn bị môi trường:**](5.1-Preparation/) Thiết lập Next.js và Amplify.
-2.  [**UI Implementation:**](5.2-UI-Implementation/) Code giao diện Chat & Tarot với hiệu ứng động.
-3.  [**Integration:**](5.3-Integration/) Tích hợp Login (Cognito) và gọi API (Gateway).
-4.  [**CI/CD Pipeline:**](5.4-Deployment/) Đẩy code lên Git và tự động deploy ra Internet.
-5.  [**Advanced:**](5.5-Advanced-Deployment/) Cấu hình tên miền riêng và tối ưu SEO.
-6.  [**Backend Reference:**](5.6-Backend-Architecture/) Tìm hiểu mô hình RAG.
-7.  [**Cleanup:**](5.7-Cleanup/) Dọn dẹp tài nguyên.
+```json
+{
+  "finding_id": "mock-finding-001",
+  "finding_type": "Recon:EC2/Portscan",
+  "severity": 5.0,
+  "resource_type": "EC2",
+  "target_id": "i-0123456789abcdef0",
+  "region": "ap-southeast-1",
+  "attacker_ip": "203.0.113.45",
+  "attacker_location": "Hanoi, Vietnam",
+  "title": "Port scan from known malicious IP",
+  "description": "EC2 instance i-0123456789abcdef0 was probed by IP 203.0.113.45 on ports 22, 80, 443.",
+  "timestamp": "2026-04-26T10:00:00Z"
+}
+```
 
----
-{{% notice tip %}}
-**Tư duy Frontend:** Trong kiến trúc Serverless, Frontend không chỉ là "người hiển thị". Nó còn chịu trách nhiệm về **Bảo mật** (giữ Token an toàn) và **Tối ưu trải nghiệm** (xử lý Loading state khi chờ AI trả lời). Hãy chú ý các điểm này trong bài thực hành!
-{{% /notice %}}
+### Bước 2: Lấy ARN của State Machine
+
+```bash
+aws stepfunctions list-state-machines --region ap-southeast-1 \
+  --query "stateMachines[?contains(name,'cloud-sentinel-orchestrator')].stateMachineArn" \
+  --output text
+```
+
+### Bước 3: Khởi chạy execution
+
+```bash
+aws stepfunctions start-execution \
+  --state-machine-arn <ARN-thu-duoc> \
+  --name test-run-$(date +%s) \
+  --input file://mock_finding.json \
+  --region ap-southeast-1
+```
+
+### Bước 4: Quan sát kết quả
+
+- Vào **AWS Console → Step Functions → State machines → `cloud-sentinel-orchestrator` → Executions**.
+- Chọn execution vừa tạo.
+- Xem từng state (Parse Finding → Check Precedent → Get Knowledge → Invoke Agents Pipeline → Send Telegram And Wait → Execute Remediation).
+- Nếu bạn đã cấu hình Telegram và Cognito (theo hướng dẫn ở mục 2.4), bạn sẽ nhận được tin nhắn yêu cầu phê duyệt. Bấm **Approve** để pipeline chạy tiếp.
+
+## 2.2.4. Kiểm tra và xác minh
+
+- **CloudWatch Logs**: Mỗi Lambda (parser, history, knowledge, advisor, telegram_sender, executor) có log group riêng. Bạn có thể kiểm tra log để debug.
+- **DynamoDB**: Sau khi execution hoàn thành, bảng `incident_history` sẽ có một bản ghi mới (nếu executor ghi thành công).
+- **S3**: Báo cáo remediation được lưu dưới dạng JSON trong bucket `cloud-sentinel-reports-<account-id>`.
+
+## 2.2.5. Tổng kết lớp phát hiện
+
+- GuardDuty cung cấp nguồn sự kiện bảo mật, được chuẩn hóa qua `lambda_parser`.
+- Mặc dù chưa có EventBridge trigger tự động, mock event cho phép chạy pipeline đầy đủ.
+- Bạn đã thực hành gửi một finding mẫu và quan sát luồng xử lý.
