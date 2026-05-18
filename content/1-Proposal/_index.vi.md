@@ -143,7 +143,7 @@ Dự án được thực hiện dựa trên các giả định và ràng buộc 
 
 Kiến trúc đề xuất là **Serverless Event-Driven** hoàn toàn trên AWS, tổ chức thành 4 lớp: Detection, Intelligence & Orchestration, Response & Interaction, và Storage.
 
-![Architecture Diagram](/images/High_Level_System_Architecture.GIF)
+![Architecture Diagram](/images/High_Level_System_Architecture.gif)
 
 **Các thành phần chính:**
 
