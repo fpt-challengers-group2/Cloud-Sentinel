@@ -22,5 +22,5 @@ chapter: false
 | :---:| :---: | :--- | :--- | :--- |
 |<img src="/images/PHuyen.JPG" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | **Leader** | Tran Phuong Huyen | Software Engineering | tranphuonghuyen2005@gmail.com |
 |<img src="/images/LamAnh.JPG" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | AI | Nguyen Lam Anh | Artifical Intelligent | nguyenla110505@gmail.com |
-|<img src="/images/VanLinh.JPG" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | AI | Nguyen Van Linh | Artifical Intelligent | nguyenvanlinh.1710.it@gmail.com | 
+|<img src="/images/VanLinh.jpg" class="img-responsive" style="max-width:300px; display:block; margin:auto;"> | AI | Nguyen Van Linh | Artifical Intelligent | nguyenvanlinh.1710.it@gmail.com | 
 
