@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Response Interaction on Proposal Report</title>
-    <link>http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/</link>
+    <link>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/</link>
     <description>Recent content in Response Interaction on Proposal Report</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

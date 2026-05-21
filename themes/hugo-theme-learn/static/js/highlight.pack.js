@@ -656,7 +656,7 @@ hljs.registerLanguage("bash", function (e) {
       _: "-ne -eq -lt -gt -f -d -e -s -l -a",
     },
     c: [
-      { cN: "meta", b: /^#![^\n]+sh\s*$/, r: 10 },
+      { cN: "meta", b: /###![^\n]+sh\s*$/, r: 10 },
       {
         cN: "function",
         b: /\w[\w\d_]*\s*\(\s*\)\s*\{/,
@@ -784,7 +784,7 @@ hljs.registerLanguage("markdown", function (e) {
     c: [
       {
         cN: "section",
-        v: [{ b: "^#{1,6}", e: "$" }, { b: "^.+?\\n[=-]{2,}$" }],
+        v: [{ b: "###{1,6}", e: "$" }, { b: "^.+?\\n[=-]{2,}$" }],
       },
       { b: "<", e: ">", sL: "xml", r: 0 },
       { cN: "bullet", b: "^([*+-]|(\\d+\\.))\\s+" },

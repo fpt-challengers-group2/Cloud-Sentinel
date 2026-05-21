@@ -1,4 +1,4 @@
-baseURL = "https://huynphgtr.github.io/fpt-challengers-group2/"
+baseURL = "https://fpt-challengers-group2.github.io/Cloud-Sentinel/"
 relativeURLs = true
 canonifyURLs = true
 
@@ -26,22 +26,31 @@ title = "Proposal Report"
 weight = 1
 languageName = "English"
 
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group"
-identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj/"
-weight = 20
 
 [Languages.vi]
 title = "Báo cáo đề án thực tập"
 weight = 2
 languageName = "Tiếng Việt"
 
-[[Languages.vi.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group"
-identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj/"
-weight = 20
+[[languages.en.menu.shortcut]]
+  name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
+  url = "https://awsstudygroup.com"
+  weight = 1
+
+[[languages.en.menu.shortcut]]
+  name = "<i class='fab fa-facebook'></i> AWS Study Group - FB Group"
+  url = "https://www.facebook.com/groups/awsstudygroupfcj"
+  weight = 2
+
+[[languages.vi.menu.shortcut]]
+  name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
+  url = "https://awsstudygroup.com"
+  weight = 1
+
+[[languages.vi.menu.shortcut]]
+  name = "<i class='fab fa-facebook'></i> AWS Study Group - FB Group"
+  url = "https://www.facebook.com/groups/awsstudygroupfcj"
+  weight = 2
 
 [markup]
   [markup.goldmark]

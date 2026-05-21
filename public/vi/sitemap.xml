@@ -2,116 +2,176 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/"
+                href="http://localhost:1313/Cloud-Sentinel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/"
+                href="http://localhost:1313/Cloud-Sentinel/vi/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/1-proposal/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/1-proposal/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/1-proposal/"
+                href="http://localhost:1313/Cloud-Sentinel/1-proposal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/1-proposal/"
+                href="http://localhost:1313/Cloud-Sentinel/vi/1-proposal/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.1-workshop-overview/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.1-workshop-overview/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.1-workshop-overview/"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.1-workshop-overview/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.1-workshop-overview/"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.1-workshop-overview/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/01-guardduty-setup/01-guardduty-setup/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/01-what-we-built/01-what-we-built/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/01-stepfunctions/01-stepfunctions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/01-telegram-sender/01-telegram-sender/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/02-api-gateway/02-api-gateway/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/02-finding-structure/02-finding-structure/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.2-detection-layer/"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/02-what-we-learned/02-what-we-learned/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/02-state-parser/02-state-parser/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/03-cognito-auth/03-cognito-auth/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/03-trigger-mechanism/03-trigger-mechanism/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/03-limitations/03-limitations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.3-intelligence-orchestration/"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.3-intelligence-orchestration/"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/03-state-history/03-state-history/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/04-final-checks/04-final-checks/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/04-lab-mock-event/04-lab-mock-event/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/04-approval-handler/04-approval-handler/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/2-workshop/2.4-response-interaction/"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.4-response-interaction/"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.5-summary-cleanup/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/04-state-knowledge/04-state-knowledge/</loc>
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/01-guardduty-setup/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/05-cleanup/05-cleanup/</loc>
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/categories/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/05-verification/05-verification/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/05-executor/05-executor/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/05-state-agents/05-state-agents/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/06-data-flow/06-data-flow/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/06-storage/06-storage/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/06-cost-references/06-cost-references/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/06-summary/06-summary/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/07-lab-approval/07-lab-approval/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/07-data-flow/07-data-flow/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/08-prerequisites/08-prerequisites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/08-verification/08-verification/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/09-lab-run/09-lab-run/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/10-verification/10-verification/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/11-summary/11-summary/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/categories/"
+                href="http://localhost:1313/Cloud-Sentinel/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/categories/"
+                href="http://localhost:1313/Cloud-Sentinel/vi/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fpt-challengers-group2/vi/tags/</loc>
+    <loc>http://localhost:1313/Cloud-Sentinel/vi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fpt-challengers-group2/tags/"
+                href="http://localhost:1313/Cloud-Sentinel/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/fpt-challengers-group2/vi/tags/"
+                href="http://localhost:1313/Cloud-Sentinel/vi/tags/"
                 />
   </url>
 </urlset>

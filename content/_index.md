@@ -13,7 +13,7 @@ chapter: false
 | **University** | FPT University - Ho Chi Minh Campus |
 | **Internship company** | Amazon Web Services Vietnam Co., Ltd. |
 | **Internship position** | FCJ Workforce Program Intern |
-| **Internship duration** | From 14/01/2026 |
+| **Internship duration** | From 08/03/2026 |
 
 
 ### Team Member 

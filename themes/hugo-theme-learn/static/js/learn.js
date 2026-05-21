@@ -186,7 +186,7 @@ jQuery(document).ready(function () {
     var code = $(this),
       text = code.text();
 
-    if (text.length > 5) {
+    if (text.length > 0) {
       if (!clipInit) {
         var text,
           clip = new ClipboardJS(".copy-to-clipboard", {
@@ -300,7 +300,7 @@ jQuery(document).ready(function () {
     var HISTORY_SUPPORT = !!(history && history.pushState);
 
     var anchorScrolls = {
-      ANCHOR_REGEX: /^#[^ ]+$/,
+      ANCHOR_REGEX: /###[^ ]+$/,
       OFFSET_HEIGHT_PX: 50,
 
       /**
