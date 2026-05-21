@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>vi</language>
     <atom:link href="http://localhost:1313/fpt-challengers-group2/vi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/01-guardduty-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fpt-challengers-group2/vi/2-workshop/2.2-detection-layer/01-guardduty-setup/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
