@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/01-guardduty-setup/01-guardduty-setup/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/01-guardduty-setup/01-guardduty-setup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/01-guardduty-setup/01-guardduty-setup/"
+                />
+  </url><url>
     <loc>http://localhost:1313/Cloud-Sentinel/</loc>
     <xhtml:link
                 rel="alternate"
@@ -38,6 +50,42 @@
                 href="http://localhost:1313/Cloud-Sentinel/1-proposal/"
                 />
   </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/01-stepfunctions/01-stepfunctions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/01-stepfunctions/01-stepfunctions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/01-stepfunctions/01-stepfunctions/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/01-telegram-sender/01-telegram-sender/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/01-telegram-sender/01-telegram-sender/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/01-telegram-sender/01-telegram-sender/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/01-what-we-built/01-what-we-built/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/01-what-we-built/01-what-we-built/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/01-what-we-built/01-what-we-built/"
+                />
+  </url><url>
     <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/</loc>
     <xhtml:link
                 rel="alternate"
@@ -48,6 +96,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/Cloud-Sentinel/2-workshop/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/02-api-gateway/02-api-gateway/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/02-api-gateway/02-api-gateway/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/02-api-gateway/02-api-gateway/"
                 />
   </url><url>
     <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/</loc>
@@ -62,6 +122,54 @@
                 href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/"
                 />
   </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/02-finding-structure/02-finding-structure/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/02-finding-structure/02-finding-structure/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/02-finding-structure/02-finding-structure/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/02-state-parser/02-state-parser/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/02-state-parser/02-state-parser/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/02-state-parser/02-state-parser/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/02-what-we-learned/02-what-we-learned/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/02-what-we-learned/02-what-we-learned/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/02-what-we-learned/02-what-we-learned/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/03-cognito-auth/03-cognito-auth/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/03-cognito-auth/03-cognito-auth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/03-cognito-auth/03-cognito-auth/"
+                />
+  </url><url>
     <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/</loc>
     <xhtml:link
                 rel="alternate"
@@ -74,6 +182,78 @@
                 href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/"
                 />
   </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/03-limitations/03-limitations/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/03-limitations/03-limitations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/03-limitations/03-limitations/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/03-state-history/03-state-history/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/03-state-history/03-state-history/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/03-state-history/03-state-history/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/03-trigger-mechanism/03-trigger-mechanism/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/03-trigger-mechanism/03-trigger-mechanism/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/03-trigger-mechanism/03-trigger-mechanism/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/04-final-checks/04-final-checks/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/04-final-checks/04-final-checks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/04-final-checks/04-final-checks/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/04-lab-mock-event/04-lab-mock-event/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/04-lab-mock-event/04-lab-mock-event/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/04-lab-mock-event/04-lab-mock-event/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/04-approval-handler/04-approval-handler/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/04-approval-handler/04-approval-handler/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/04-approval-handler/04-approval-handler/"
+                />
+  </url><url>
     <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/</loc>
     <xhtml:link
                 rel="alternate"
@@ -84,6 +264,200 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/04-state-knowledge/04-state-knowledge/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/04-state-knowledge/04-state-knowledge/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/04-state-knowledge/04-state-knowledge/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/05-cleanup/05-cleanup/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/05-cleanup/05-cleanup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/05-cleanup/05-cleanup/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/05-executor/05-executor/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/05-executor/05-executor/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/05-executor/05-executor/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/05-state-agents/05-state-agents/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/05-state-agents/05-state-agents/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/05-state-agents/05-state-agents/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/05-verification/05-verification/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/05-verification/05-verification/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/05-verification/05-verification/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/06-data-flow/06-data-flow/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/06-data-flow/06-data-flow/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/06-data-flow/06-data-flow/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/06-cost-references/06-cost-references/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.5-summary-cleanup/06-cost-references/06-cost-references/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.5-summary-cleanup/06-cost-references/06-cost-references/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/06-summary/06-summary/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.2-detection-layer/06-summary/06-summary/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.2-detection-layer/06-summary/06-summary/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/06-storage/06-storage/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/06-storage/06-storage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/06-storage/06-storage/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/07-data-flow/07-data-flow/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/07-data-flow/07-data-flow/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/07-data-flow/07-data-flow/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/07-lab-approval/07-lab-approval/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/07-lab-approval/07-lab-approval/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/07-lab-approval/07-lab-approval/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/08-prerequisites/08-prerequisites/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/08-prerequisites/08-prerequisites/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/08-prerequisites/08-prerequisites/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/08-verification/08-verification/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.4-response-interaction/08-verification/08-verification/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/08-verification/08-verification/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/09-lab-run/09-lab-run/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/09-lab-run/09-lab-run/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/09-lab-run/09-lab-run/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.4-response-interaction/09-summary/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/10-verification/10-verification/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/10-verification/10-verification/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/10-verification/10-verification/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/11-summary/11-summary/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/Cloud-Sentinel/vi/2-workshop/2.3-intelligence-orchestration/11-summary/11-summary/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/Cloud-Sentinel/2-workshop/2.3-intelligence-orchestration/11-summary/11-summary/"
                 />
   </url><url>
     <loc>http://localhost:1313/Cloud-Sentinel/categories/</loc>
